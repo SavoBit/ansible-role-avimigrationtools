@@ -1,0 +1,17 @@
+---
+# defaults file for ansible-role-avimigrationtools
+
+avi_vs_ip_address: ~
+avi_vs_type: ~
+avi_vs_port: ~
+avi_vs_name: ~
+avi_controller: ~
+avi_con_username: ~
+avi_con_password: ~
+vs_state: ~
+vs_name: ~
+vs_type: ~
+ns_host: ~
+ns_username: ~
+ns_password: ~
+avi_con_tenant: admin
