@@ -1,0 +1,29 @@
+galaxy_info:
+  author: Chaitanya Deshpande
+  description: your description
+  company: Avi Networks
+  license: Apache 2.0
+  min_ansible_version: 2.0.0
+  github_branch: master
+
+  platforms:
+  - name: EL
+    versions:
+    - 6
+    - 7
+  - name: Ubuntu
+    versions:
+    - precise
+    - trusty
+    - xenial
+  galaxy_tags:
+    - avi
+    - loadbalancer
+    - avinetworks
+    - centos
+    - ubuntu
+    - mesos
+    - migration
+    - migrationtool
+dependencies:
+  - { role: avinetworks.avisdk }
